@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Baloo+Tammudu+2:wght@500&display=swap');
 
 /* Landing Page */
-.bulat {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
 
 
 /* Navbar style */
@@ -27,6 +21,35 @@
 .offcanvas-body li {
     margin-bottom: 20px;
 }
+.offcanvas-body button {
+    background-color: gray;
+    color: black;
+    width:100%;
+    border: none;
+    
+}
+
+.navbar-toggler:hover{
+    background: white;
+}
+
+
+
+.offcanvas-body button:hover {
+    background-color: purple;
+}
+
+
+#section1{
+    background-color: white
+}
+
+
+
+
+
+
+
 
 
 /* end Navbar Style */
@@ -43,11 +66,10 @@
 }
 
 
-.jumbotron {
-    background-image: url("/background.png");
-    height: 94vh;
-    width: 98%;
-    /* background-attachment: fixed; */
+/* .jumbotron {
+    background-image: url("/assets/background.png");
+    height: 100vh;
+    width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -55,13 +77,25 @@
     margin-top: 20px;
     z-index: -1;
     border-radius: 20px;
+    border: 5px solid #555;
    
-}
+} */
+
+body {
+    background: url('/assets/background.png') no-repeat center;
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+    height: 100vh;
+    border: 20px solid rgb(255, 255, 255);
+    overflow: hidden;
+ }
 
 .judul{
     font-family: 'Baloo 2', cursive;
     font-weight: bolder;
     position: relative;
+    margin-top: -180px;
+    margin-bottom: 15px;
 }
 
 #brand{
@@ -106,6 +140,51 @@
 /* Cyber Security Page */
 
 
+/* list content */
+.list{
+    margin-top: 30px;
+
+}
+
+#list img{
+    width: 130px;
+}
+
+#list img:hover{
+    -webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+         
+    
+}
+
+/* List content */
+
+
+.dwm{
+    padding-top: 80px;
+    font-family: 'Baloo 2', cursive;
+    
+}
+
+.dwm .card{
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: 200px;
+    padding-top: 50px;
+}
+
+.detail img{
+    margin-top: 10px;
+}
+
+.detail p{
+    font-family: 'Baloo 2', cursive;
+}
+.detail h5{
+    font-family: 'Baloo 2', cursive;
+}
+
+
 
 
 
@@ -116,10 +195,13 @@
 /* Media screen */
 
 @media only screen and (max-device-width: 768px) and (orientation:portrait) {
-    .jumbotron {
+    /* .jumbotron {
         background-size: auto 100%;
-        background-position: center center;
-    }
+        background-position: center;
+        height: 95vh;
+        width: 98%;
+
+    } */
 
     .desc1{
         padding-top: 40px;
@@ -151,4 +233,10 @@
         margin-top: 30px;
         margin-right: 5px;
     }
+
+    #list img{
+        width: 130px;
+    }
+  
+   
 }
