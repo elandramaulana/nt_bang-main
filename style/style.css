@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Baloo+Tammudu+2:wght@500&display=swap');
+
+/* Landing Page */
+.bulat {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+/* Navbar style */
+
+.navbar {
+    font-family: 'Baloo 2', cursive;
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.navbar a{
+    font-size: 20px;
+}
+
+
+.offcanvas-body li {
+    margin-bottom: 20px;
+}
+
+
+/* end Navbar Style */
+
+
+/* jumbotron */
+
+.desc h2{
+    padding-top: 70px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+
+.jumbotron {
+    background-image: url("/background.png");
+    height: 94vh;
+    width: 98%;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    margin-top: 20px;
+    z-index: -1;
+    border-radius: 20px;
+   
+}
+
+.judul{
+    font-family: 'Baloo 2', cursive;
+    font-weight: bolder;
+    position: relative;
+}
+
+#brand{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+
+/* end jumbotron */
+/* End Landing Page */
+
+
+/* Cyber Security Page*/
+.desc1{
+    padding-top: 70px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.desc2{
+    font-family: 'Baloo 2', cursive;
+    font-weight: bolder;
+    color: white;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+.cyber-desc{
+    margin-top: 200px;
+    font-family: 'Baloo 2', cursive;
+    color: white;
+}
+
+.btn-danger{
+    width: 170px;
+    height: 70px;
+    font-family: 'Baloo 2', cursive; 
+}
+/* Cyber Security Page */
+
+
+
+
+
+
+
+
+
+/* Media screen */
+
+@media only screen and (max-device-width: 768px) and (orientation:portrait) {
+    .jumbotron {
+        background-size: auto 100%;
+        background-position: center center;
+    }
+
+    .desc1{
+        padding-top: 40px;
+        font-family: 'Baloo 2', cursive;
+        font-weight: bolder;
+        color: white;
+        
+    }
+    
+    .desc2{
+        font-family: 'Baloo 2', cursive;
+        font-weight: bolder;
+        color: white;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .cyber-desc{
+        font-size: 14px;
+    }
+    .btn-danger{
+        width: 140px;
+        height: 40px;
+        font-family: 'Baloo 2', cursive; 
+    }
+    .navbar {
+        font-family: 'Baloo 2', cursive;
+        font-weight: bolder;
+        position: absolute;
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+}
